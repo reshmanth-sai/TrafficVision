@@ -1,0 +1,8 @@
+venv/
+*.pt
+data/*/train/
+data/*/valid/
+data/*/test/
+__pycache__/
+.DS_Store
+*.pyc
