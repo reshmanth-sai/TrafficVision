@@ -1,0 +1,8 @@
+# ByteTrack tracker defaults for traffic monitoring
+tracker_type: bytetrack
+track_high_thresh: 0.35
+track_low_thresh: 0.1
+new_track_thresh: 0.35
+track_buffer: 90 # 90 frames = 7.2 seconds at 12.5 fps for occlusion resilience
+match_thresh: 0.8
+fuse_score: True
