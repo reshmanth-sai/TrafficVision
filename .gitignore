@@ -1,4 +1,3 @@
-
 venv/
 *.pt
 data/*/train/
@@ -8,3 +7,9 @@ __pycache__/
 .DS_Store
 *.pyc
 .ijfw/
+
+# Ignore generated pipeline outputs except showcase demo video
+outputs/*.mp4
+outputs/*.csv
+outputs/*.jpg
+!outputs/annotated_sample_traffic_h264.mp4
